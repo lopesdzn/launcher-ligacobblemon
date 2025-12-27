@@ -33,6 +33,17 @@
                     "artifact": {
                         "url": "https://maven.fabricmc.net/net/fabricmc/fabric-loader/0.16.10/fabric-loader-0.16.10.jar"
                     }
+                },
+                {
+                    "id": "modpack-liga-cobblemon",
+                    "name": "Arquivos do Servidor (Mods/Configs)",
+                    "type": "File",
+                    "artifact": {
+                        "size": 0,
+                        "MD5": "0",
+                        "path": "modpack.zip",
+                        "url": "COLOQUE_AQUI_O_LINK_DO_DROPBOX_COM_DL_1"
+                    }
                 }
             ]
         }
