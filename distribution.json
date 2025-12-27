@@ -15,7 +15,7 @@
             "name": "Liga Cobblemon",
             "description": "Servidor oficial da Liga Cobblemon. Entre e capture todos!",
             "icon": "https://lopesdzn.github.io/launcher-ligacobblemon/server-icon.png",
-            "version": "1.0.2",
+            "version": "1.0.3",
             "address": "177.136.219.8:21140",
             "minecraftVersion": "1.21.1",
             "discord": {
@@ -43,13 +43,12 @@
                     }
                 },
                 {
-                    "id": "liga-cobblemon-files",
+                    "id": "br.com.ligacobblemon:modpack:1.0.0",
                     "name": "Arquivos do Servidor",
-                    "type": "File",
+                    "type": "Library",
                     "artifact": {
                         "size": 740548309,
                         "MD5": "7d22c1bdd8c292ed64d5572f62dd13ec",
-                        "path": "modpack.zip",
                         "url": "https://www.dropbox.com/scl/fi/8iolu9k8o0udywewpnjgo/liga-cobblemon.zip?rlkey=aw6d48fowbefrv6ugoda4j6sg&st=d4eyy8az&dl=1"
                     }
                 }
