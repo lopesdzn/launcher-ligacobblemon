@@ -8,7 +8,7 @@
     "java": {
         "oracle": "https://www.oracle.com/java/technologies/downloads/"
     },
-    "rss": "https://RenanPlay13013.github.io/LoyalLauncher/news.rss",
+    "rss": "https://github.com/lopesdzn/launcher-ligacobblemon/news.rss",
     "servers": [
         {
             "id": "LigaCobblemon",
