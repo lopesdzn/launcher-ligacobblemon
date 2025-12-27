@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Liga Cobblemon - Distribuição</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: url('background.jpg') no-repeat center center fixed;
+            background-size: cover;
+            color: white;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+            margin: 0;
+            text-align: center;
+            background-color: #1a1a1a;
+        }
+        .container {
+            background: rgba(0, 0, 0, 0.8);
+            padding: 2rem;
+            border-radius: 15px;
+            border: 2px solid #ffcb05;
+            box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+            max-width: 500px;
+        }
+        img {
+            width: 150px;
+            margin-bottom: 1rem;
+        }
+        h1 {
+            margin: 0;
+            color: #ffcb05;
+            text-shadow: 2px 2px 4px rgba(0,0,0,0.5);
+        }
+        p {
+            font-size: 1.1rem;
+            margin: 1rem 0;
+        }
+        .links {
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+        }
+        a {
+            color: #3b4cca;
+            background: #ffcb05;
+            padding: 10px 20px;
+            text-decoration: none;
+            border-radius: 5px;
+            font-weight: bold;
+            transition: transform 0.2s;
+        }
+        a:hover {
+            transform: scale(1.05);
+            background: #ffde00;
+        }
+        .status {
+            margin-top: 20px;
+            font-size: 0.9rem;
+            color: #aaa;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <img src="server-icon.png" alt="Liga Cobblemon Logo">
+        <h1>Liga Cobblemon</h1>
+        <p>Este é o servidor de distribuição oficial do nosso launcher.</p>
+        <div class="links">
+            <a href="distribution.json">Ver distribution.json</a>
+            <a href="news.rss">Ver Feed de Notícias</a>
+        </div>
+        <div class="status">
+            IP do Servidor: 177.136.219.8:21140
+        </div>
+    </div>
+</body>
+</html>

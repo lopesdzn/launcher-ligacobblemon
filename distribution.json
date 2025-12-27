@@ -1,0 +1,40 @@
+{
+    "version": "1.0.0",
+    "discord": {
+        "clientId": "385581240906022916",
+        "smallImageText": "Liga Cobblemon",
+        "smallImageKey": "seal-circle"
+    },
+    "java": {
+        "oracle": "https://www.oracle.com/java/technologies/downloads/"
+    },
+    "rss": "https://RenanPlay13013.github.io/LoyalLauncher/news.rss",
+    "servers": [
+        {
+            "id": "LigaCobblemon",
+            "name": "Liga Cobblemon",
+            "description": "Servidor oficial da Liga Cobblemon. Entre e capture todos!",
+            "icon": "https://RenanPlay13013.github.io/LoyalLauncher/server-icon.png",
+            "version": "1.0.0",
+            "address": "177.136.219.8:21140",
+            "minecraftVersion": "1.21.1",
+            "discord": {
+                "shortId": "LigaCobblemon",
+                "largeImageText": "Liga Cobblemon",
+                "largeImageKey": "server-icon"
+            },
+            "mainServer": true,
+            "autoconnect": true,
+            "modules": [
+                {
+                    "id": "net.fabricmc:fabric-loader:0.16.10",
+                    "name": "Fabric Loader",
+                    "type": "Fabric",
+                    "artifact": {
+                        "url": "https://maven.fabricmc.net/net/fabricmc/fabric-loader/0.16.10/fabric-loader-0.16.10.jar"
+                    }
+                }
+            ]
+        }
+    ]
+}
